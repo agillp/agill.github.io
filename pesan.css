@@ -29,6 +29,7 @@ body {
     text-decoration: none;
     transition: 0.3s;
     font-size: 13px;
+    cursor: pointer;
 }
 
 ul.topnav li a:hover {
@@ -46,8 +47,9 @@ ul.topnav li a:hover {
     max-width: 400px;
     box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.4);
 }
+
 .formLogin {
-    
+
     position: fixed;
     z-index: 1;
     padding-top: 110px;
@@ -60,7 +62,7 @@ ul.topnav li a:hover {
 }
 
 .formSignUp {
-    
+
     position: fixed;
     z-index: 1;
     padding-top: 110px;
@@ -71,6 +73,7 @@ ul.topnav li a:hover {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
 .headLogin {
     background-color: pink;
     padding: 20px 30px;
@@ -78,22 +81,27 @@ ul.topnav li a:hover {
     font-size: 20px;
     overflow: auto;
 }
-.headLogin p{
+
+.headLogin p {
     float: left;
 }
+
 .tenLogin {
     text-align: center;
     padding: 20px 30px 30px 30px;
 }
-.tenLogin p{
+
+.tenLogin p {
     padding: 20px 0 5px;
 }
-.tenLogin input{
+
+.tenLogin input {
     padding: 6px 0;
     border: 1px solid pink;
     width: 100%;
 }
-.tenLogin input[type=submit]{
+
+.tenLogin input[type=submit] {
     padding: 10px;
     background-color: pink;
     font-size: 16px;
@@ -101,21 +109,25 @@ ul.topnav li a:hover {
     font-weight: bold;
     width: 100%;
     cursor: pointer;
-        
+
 }
+
 .close {
     float: right;
 }
-.close:hover{
+
+.close:hover {
     cursor: pointer;
     color: hotpink;
     transition: .3s;
 }
+
 .ext {
     margin-top: 30px;
     font-size: 12px;
 }
-.ext button{
+
+.ext button {
     border: none;
     font-family: 'julius sans one';
     font-size: 13px;
@@ -131,55 +143,67 @@ ul.topnav li a:hover {
     margin: auto;
     width: 90%;
 }
+
 .bcrumb {
     padding-top: 30px;
     text-align: center;
 }
-.bcrumb a{
+
+.bcrumb a {
     text-decoration: none;
     color: black;
     font-size: 12px;
 }
-.bcrumb a:hover{
+
+.bcrumb a:hover {
     color: pink;
     transition: .5s;
 }
-.bcrumb a font{
+
+.bcrumb a font {
     font-size: 45px;
 }
-.review{
+
+.review {
     margin: 20px auto;
     width: 60%;
     border: 1px solid pink;
     overflow: auto;
     padding: 20px;
-  }
-.review img{
+}
+
+.review img {
     width: 50%;
     float: left;
 }
-.review p, .review h4{
+
+.review p,
+.review h4 {
     padding-bottom: 20px;
     width: 45%;
     float: right;
     font-size: 18px;
 }
-.order{
+
+.order {
     text-align: center;
     margin: auto;
     padding: 20px;
     background-color: pink;
     width: 60%;
 }
-.order h5{
+
+.order h5 {
     margin: 20px 0 10px 0;
 }
-.order input[type=number]{
+
+.order input[type=number] {
     border: none;
     width: 100%;
     padding: 6px 0;
 }
-.order input[type=submit]{
+
+.order input[type=submit] {
     border: none;
     padding: 6px;
     font-size: 16px;
@@ -188,13 +212,15 @@ ul.topnav li a:hover {
     color: pink;
     width: 100%;
 }
-.order input[type=submit]:hover{
+
+.order input[type=submit]:hover {
     color: black;
     background-color: hotpink;
     cursor: pointer;
     transition: .8s;
 }
-.order li{
+
+.order li {
     text-decoration: none;
     display: inline-block;
     background-color: black;
@@ -202,20 +228,27 @@ ul.topnav li a:hover {
     padding: 6px;
     margin: 8px 8px 8px 0;
 }
-.order li:hover{
+
+.order li:hover {
     background-color: hotpink;
     color: black;
     transition: 0.5s;
     cursor: pointer;
 }
+
 @media screen and (max-width:600px) {
-    .review, .order{
+
+    .review,
+    .order {
         width: 80%;
     }
-    .review p, .review h4{
+
+    .review p,
+    .review h4 {
         font-size: 2vw;
     }
 }
+
 footer {
     font-size: 12px;
     text-align: center;
@@ -225,12 +258,14 @@ footer {
     line-height: 30px;
     width: 100%;
 }
+
 .social {
     font-size: 20px;
     background-color: pink;
     padding: 10px;
 }
-.social a{
+
+.social a {
     padding: 10px;
     color: black;
 }

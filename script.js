@@ -40,7 +40,7 @@ $(document).ready(function () {
 function validasi() {
     var username = document.forms["login"]["username"].value;
     var password = document.forms["login"]["password"].value;
-    if ((username == "reka" || username == "reka@gmail.com" ) && (password == "reka1234")) {
+    if ((username == "reka" || username == "reka@gmail.com") && (password == "reka1234")) {
         return true;
     } else {
         alert("Username atau password yang anda masukkan salah")
