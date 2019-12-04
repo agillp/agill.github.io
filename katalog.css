@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.topnav {
+    border-bottom: 1px solid pink;
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+}
+
+.topright a {
+    float: right;
+}
+
+.topnav li a {
+    display: inline-block;
+    padding: 16px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 13px;
+}
+
+ul.topnav li a:hover {
+    color: pink;
+    background-color: white;
+}
+.content {
+    height: 1000px;
+}
+.wadah {
+    margin: auto;
+    width: 90%;
+    
+}
+.thumbnail {
+    float: left;
+    margin: 20px 35px;
+    padding: 10px;
+    width: 177px;
+    border: 1px solid pink;
+    overflow: hidden;
+}
+.thumbnail img{
+    width: 100%;
+
+}
+.thumbnail p {
+    font-size: 12px;
+    padding-top: 12px;
+}
+.thumbnail h3 {
+    color: black;
+    float: right;
+    border-bottom: 2px solid pink;
+    font-size: 14px;
+    margin-top: 6px;
+    padding: 12px;
+    display: inline-block;
+}
+.thumbnail h3:hover{
+    background-color: pink;
+    cursor: pointer;
+    transition: .5s;
+}
+.bcrumb {
+    padding-top: 30px;
+    text-align: center;
+}
+.bcrumb a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.bcrumb a:hover{
+    color: pink;
+    transition: .5s;
+}
+.bcrumb a font{
+    font-size: 45px;
+}
+footer {
+    
+    font-size: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    overflow: auto;
+    line-height: 30px;
+    width: 100%;
+}
+.social {
+    font-size: 20px;
+    background-color: pink;
+    padding: 10px;
+}
+.social a{
+    padding: 10px;
+    color: black;
+}
+@media screen and (max-width:601px) {
+    .wadah{
+        margin: auto;
+        width: 50%;
+    }
+    .thumbnail{
+        margin: 20px;
+        font-size: 12px;
+    }
+}

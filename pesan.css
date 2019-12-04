@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.topnav {
+    border-bottom: 1px solid pink;
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+}
+
+.topright a {
+    float: right;
+}
+
+.topnav li a {
+    display: inline-block;
+    padding: 16px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 13px;
+}
+
+ul.topnav li a:hover {
+    color: pink;
+    background-color: white;
+}
+
+
+.content {
+    height: 1000px;
+    margin: auto;
+    width: 90%;
+}
+.bcrumb {
+    padding-top: 30px;
+    text-align: center;
+}
+.bcrumb a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.bcrumb a:hover{
+    color: pink;
+    transition: .5s;
+}
+.bcrumb a font{
+    font-size: 45px;
+}
+.review{
+    margin: 20px auto;
+    width: 60%;
+    border: 1px solid pink;
+    overflow: auto;
+    padding: 20px;
+  }
+.review img{
+    width: 50%;
+    float: left;
+}
+.review p, .review h4{
+    padding-bottom: 20px;
+    width: 45%;
+    float: right;
+    font-size: 18px;
+}
+.order{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color: pink;
+    width: 60%;
+}
+.order h5{
+    margin: 20px 0 10px 0;
+}
+.order input[type=number]{
+    border: none;
+    width: 100%;
+    padding: 6px 0;
+}
+.order input[type=submit]{
+    border: none;
+    padding: 6px;
+    font-size: 16px;
+    font-family: 'julius sans one';
+    background-color: black;
+    color: pink;
+    width: 100%;
+}
+.order input[type=submit]:hover{
+    color: black;
+    background-color: hotpink;
+    cursor: pointer;
+    transition: .8s;
+}
+.order li{
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    color: pink;
+    padding: 6px;
+    margin: 8px 8px 8px 0;
+}
+.order li:hover{
+    background-color: hotpink;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .review, .order{
+        width: 80%;
+    }
+    .review p, .review h4{
+        font-size: 2vw;
+    }
+}
+footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    overflow: auto;
+    line-height: 30px;
+    width: 100%;
+}
+.social {
+    font-size: 20px;
+    background-color: pink;
+    padding: 10px;
+}
+.social a{
+    padding: 10px;
+    color: black;
+}
