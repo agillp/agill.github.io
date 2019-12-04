@@ -203,10 +203,10 @@ footer {
 @media screen and (max-width:601px) {
     .wadah{
         margin: auto;
-        width: 50%;
+        width: 90%;
     }
     .thumbnail{
-        margin: 20px;
+        margin: 3vw 21vw;
         font-size: 12px;
     }
 }
